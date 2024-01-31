@@ -1,0 +1,115 @@
+ @font-face {
+    font-family: prajwol;
+    src: url(/AvertaCY-Light.woff2);
+ }
+ @font-face {
+    font-family: yam;
+    src: url(/AvertaCY-Bold.woff2);
+ }
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+font-family:prajwol;
+
+}
+*::selection{
+    color:white;
+    background-color: black;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+#main{
+    width:100%;     
+    background-color: red;
+}
+#home{
+    width:100%;
+    height:100vh;
+    background-color: #fff;
+}
+#nav{
+    width:100%;
+    padding:30px 50px;
+    /* background-color:pink; */
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#nav img{
+    width:100px;
+}
+#nav .right{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+#nav a {
+    /* font-family:yam; */
+    text-decoration:none;
+    color:black;
+    font-weight:900;
+    font-size:1.1vw;
+    letter-spacing:1px;
+    /* overflow:hidden; */
+}
+#nav i:hover,a:hover{
+    border:1px solid black;
+    border-radius:50px;
+    padding:.5vw 1vw;
+    background-color: black;
+    color:white;
+}
+#nav a:hover{
+    border:1px solid black;
+    border-radius:50px;
+    padding:.5vw 1vw;
+    background-color: black;
+    color:white;
+}
+.right i{
+    font-weight:700;
+    margin-top:3px;
+    font-size:20px;
+}
+#home #home_main{
+    width:100%;
+    /* background-color: red; */
+    padding:11vw 10vw;
+}
+#home_main h1{
+    font-weight:600;
+    font-size:1.5vw;
+}
+.headings{
+    display: flex;
+    gap:40px;
+}
+#home_main .headings h1{
+    color:transparent;      
+    -webkit-text-stroke:1px #000;
+    font-size:7vw;
+    font-weight:900;
+    line-height: 1;
+    letter-spacing: -4px;
+    font-family: yam;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+
+}   
+#home_last{
+    padding:5.5vw 10vw;
+}
+#home_last p{
+    width:50%;
+   font-size:1.6vw;
+   font-weight: 400;
+   letter-spacing: -.08vw;
+
+}
+#home_main .headings h1:hover{
+    color:black;
+}
+/* start of second part feature */
