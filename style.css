@@ -24,7 +24,7 @@ Height:100%;
 }
 #main{
     width:100%;     
-    background-color: red;
+    /* background-color: red; */
 }
 #home{
     width:100%;
@@ -86,7 +86,7 @@ Height:100%;
 }
 .headings{
     display: flex;
-    gap:40px;
+    gap:45px;
 }
 #home_main .headings h1{
     color:transparent;      
@@ -111,5 +111,92 @@ Height:100%;
 }
 #home_main .headings h1:hover{
     color:black;
+    
 }
 /* start of second part feature */
+ #featured{
+    padding:11vw 10vw;
+   /* min-height:100vh; */
+ }
+
+ .fheading>h1{
+    line-height:1;
+    font-size:4vw;
+ }
+.fheading>h1:nth-child(2){
+    font-family:yam;
+    color:transparent;
+    -webkit-text-stroke:2px black;
+ }
+
+#featureimages{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding:0vw 6vw;
+    margin-top:5vw;
+    /* border:2px solid rgb(253, 63, 94); */
+    height:100vh;
+}   
+#fleft{
+    width:45%;
+    height:inherit;
+    /* border:2px solid green; */
+    overflow:hidden; 
+}
+#fright{
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    width:45%;
+    height:inherit;
+    /* border:2px solid blue; */
+}
+#fright .fimages{
+    width:90%;
+    height:90%;
+    background-color:red;
+}
+
+#fleft .fleftelem{
+    width:100%;
+    height:inherit;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+.fleftelem h1{
+    font-size:2.5vw;
+    line-height:1;
+    font-size:500;
+    text-transform: capitalize;
+    margin:1.6vw 0;
+}
+.fleftelem h5{
+    opacity:0.5;
+}
+.fleftelem h3{
+    font-size:1.3vw;
+    font-weight: 500;
+}
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:3vw;
+}
+.btn button{
+    font-size:1.15vw;
+    padding:1vw 2.4vw;
+    border-radius:100px;
+    border:1px solid grey;
+    background-color: #fff;
+}
+/* devlopment part3 */
+#development-dev{
+    width:100%;
+    padding:5vw 10vw;
+}
