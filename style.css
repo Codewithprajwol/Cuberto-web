@@ -56,13 +56,7 @@ Height:100%;
     letter-spacing:1px;
     /* overflow:hidden; */
 }
-#nav i:hover,a:hover{
-    border:1px solid black;
-    border-radius:50px;
-    padding:.5vw 1vw;
-    background-color: black;
-    color:white;
-}
+
 #nav a:hover{
     border:1px solid black;
     border-radius:50px;
@@ -195,8 +189,64 @@ Height:100%;
     border:1px solid grey;
     background-color: #fff;
 }
+.btn button:hover{
+    background-color: black;
+    color:white;
+}
 /* devlopment part3 */
 #development-dev{
     width:100%;
     padding:5vw 10vw;
+}
+
+#development-dev h1{
+    font-size:3.8vw;
+    width:60%;
+    line-height:1;
+    font-weight:500;
+
+}
+#development-dev p{
+    width:40%;
+    font-size:1.5vw;
+    margin-top:2vw;
+    letter-spacing: -.6px;
+}
+/* part 4 slides */
+#slides{
+    padding:5vw 6vw;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#slides .slide{
+    width:30%;
+}
+.slide .images{
+    width: 100%;
+    height:50vh;
+    /* background-color: yellow; */
+}
+.slide .tag{
+    background-color: #f1f1f1;
+    border-radius:5vw;
+    margin:1vw 0;
+    padding:.5vw 1vw;
+    width:fit-content;
+}
+.slide .images img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:1vw;
+}
+.slide h3{
+    font-size:1.3vw;
+    letter-spacing: -.5px;
+    font-weight:500;
+}
+.demo{
+    width:100%;
+    height:10vh;
 }
